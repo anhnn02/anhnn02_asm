@@ -11,34 +11,34 @@
 </head>
 
 <body>
-    <div class="max-w-screen-xl">
+    <div class="max-w-screen-xl m-auto">
         <div class="m-20 grid grid-cols-2 gap-8 max-w-[1000px] my-20 mx-24">
-            <form class="contact__form shadow rounded-[20px] max-w-sm p-9 flex flex-col justify-between ml-14">
-                <input type="email" class="form__item contact__input" placeholder="Email">
-                <textarea name="" id="" class="form__item contact__input" cols="30" rows="10"
+            <form class="contact__form shadow-xl rounded-[20px] max-w-sm p-9 flex flex-col justify-between ml-14">
+                <input type="email" class="form__item text-sm w-full radius-primary outline-none p-3 border border-gray-primary block trans-second focus:border-primary-color " placeholder="Email">
+                <textarea name="" id="" class="form__item text-sm w-full radius-primary outline-none p-3 border border-gray-primary block trans-second focus:border-primary-color h-72" cols="30" rows="10"
                     placeholder="Message..."></textarea>
-                <div class="form__item form__item-btn">
-                    <button type="submit" class="contact__btn">Submit</button>
+                <div class="form__item text-sm block text-right">
+                    <button type="submit" class="border-none radius-primary bg-primary-color px-[20px] py-[8px] text-white trans-second mt-1 hover:opacity-90">Submit</button>
                 </div>
             </form>
             <div class="contact__content">
-                <h4 class="title-page">Contact</h4>
+                <h4 class="title-page text-2xl m-0">Contact</h4>
                 <div class="contact-text">
-                    <div class="text__item">
-                        <i class="bi bi-envelope-fill"></i>
-                        <span class="text">beeshop@gmail.com</span>
+                    <div style="grid-template-columns: 20px 1fr;" class="text__item grid gap-4 pt-4">
+                        <i class="bi bi-envelope-fill text-gray-primary text-[18px]"></i>
+                        <span class="text-gray-darker text-[18px]">beeshop@gmail.com</span>
                     </div>
-                    <div class="text__item">
-                        <i class="bi bi-telephone-fill"></i>
-                        <span class="text">0912345689</span>
+                    <div style="grid-template-columns: 20px 1fr;" class="text__item grid gap-4 pt-4">
+                        <i class="bi bi-telephone-fill text-gray-primary text-[18px]"></i>
+                        <span class="text-gray-darker text-[18px]">0912345689</span>
                     </div>
-                    <div class="text__item">
-                        <i class="bi bi-geo-alt-fill"></i>
-                        <span class="text">Nam Tu Liem, Ha Noi</span>
+                    <div style="grid-template-columns: 20px 1fr;" class="text__item grid gap-4 pt-4">
+                        <i class="bi bi-geo-alt-fill text-gray-primary text-[18px]"></i>
+                        <span class="text-gray-darker text-[18px]">Nam Tu Liem, Ha Noi</span>
                     </div>
                 </div>
-                <div class="contact-img">
-                    <img src="./public/img/2ddaa3247796d79157a19993ad960066.webp" alt="" class="img-fluid">
+                <div class="contact-map mt-6">
+                    <iframe class="radius-primary" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3565.9976155524155!2d105.74579812312167!3d21.037558873521878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313454b991d80fd5%3A0x53cefc99d6b0bf6f!2zVHLGsOG7nW5nIENhbyDEkeG6s25nIEZQVCBQb2x5dGVjaG5pYw!5e0!3m2!1svi!2s!4v1641959023245!5m2!1svi!2s" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
             </div>
         </div>
