@@ -3,10 +3,10 @@ import posts from "../data";
 const News = {
     print() {
         return /* html */ ` 
-            ${posts.map((post, index) => `
+            ${posts.map((post, index) => /* html */`
             <div class="py-5 px-6 border-[1px] border-[#d6d6d6]">
                 <div class="">
-                    <a href="/news/${post.id}">
+                    <a href="/news/${index}">
                     <img class="max-w-full w-full"
                     src="${post.img}"
                     alt="">
