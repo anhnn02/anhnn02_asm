@@ -23,12 +23,14 @@ const NewsAdmin = {
                     
                         <div class="container px-6 mx-auto grid">
                             <h2 class="my-6 text-2xl font-semibold text-gray-700 dark:text-gray-200">
-                                Add New
+                                New
                             </h2>
                             <div class="flex justify-between items-center">
                             <div class="mb-4 text-lg font-semibold text-gray-600 dark:text-gray-300">
                               <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-3 rounded">
-                                Add news
+                              <a href="/admin/news/add">
+                              Add news
+                              </a>
                               </button>
                             </div>
                             <div class="">

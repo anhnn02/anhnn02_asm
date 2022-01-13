@@ -19,9 +19,12 @@ const Header = {
             <li class="block py-3 pl-6"><a class="text-sm text-white hover:border-b-[1px] hover:border-white" href="">Góc
                 sinh
                 viên</a></li>
+              <li class="block py-3 pl-6"><a class="text-sm text-white hover:border-b-[1px] hover:border-white"
+                  href="/admin/dashboard">Admin</a></li>
             <li class="block py-3 pl-6"><a class="text-sm text-white hover:border-b-[1px] hover:border-white"
-                href="">Tuyển
-                dụng</a></li>
+                href="/signup">Sign Up</a></li>
+            <li class="block py-3 pl-6"><a class="text-sm text-white hover:border-b-[1px] hover:border-white"
+                href="/signin">Sign In</a></li>
           </ul>
           <form action="" class="flex mx-2">
             <input class="py-0.5 px-2 outline-none text-xs" type="text">

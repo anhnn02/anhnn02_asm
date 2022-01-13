@@ -4,7 +4,7 @@ import SidebarAdmin from "../components/sidebarAdmin";
 
 const EditNewsAdmin = {
     print(id) {
-        const result = posts[id - 1];
+        const result = posts[id];
         return /* html */` 
             <div class="flex h-screen bg-gray-50 dark:bg-gray-900" :class="{ 'overflow-hidden': isSideMenuOpen }">
                 ${SidebarAdmin.print()}
