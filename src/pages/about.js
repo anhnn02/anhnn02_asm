@@ -5,6 +5,7 @@ import Footer from "../components/footer";
 const AboutPage = {
     print() {
         return /* html */` 
+        <div class="max-w-5xl m-auto">
         <header>
         ${Header.print()}
             </header>
@@ -13,13 +14,11 @@ const AboutPage = {
                     ${Banner.print()}
                 </div>
                 <div class="">
-                <h2 class="my-3 text-[#283054] text-2xl font-bold uppercase">Tin tức học tập</h2>
                 <div class="grid grid-cols-3 gap-8">
                    ABOUT
                 </div>
                 </div>
                 <div class="">
-                <h2 class="my-3 text-[#292a49] text-2xl font-bold uppercase">Hoạt động sinh viên</h2>
                 <div class="grid grid-cols-3 gap-8">
                     ABOUT
                 </div>
@@ -28,6 +27,8 @@ const AboutPage = {
             <footer class="mt-3 py-3 bg-[#283054] text-white text-center">
                 ${Footer.print()}
             </footer>
+        </div>
+
         `;
     },
 };

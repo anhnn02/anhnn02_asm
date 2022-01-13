@@ -6,6 +6,7 @@ import Footer from "../components/footer";
 const HomePage = {
     print() {
         return /* html */` 
+        <div class="max-w-5xl m-auto">
         <header>
           ${Header.print()}
         </header>
@@ -29,6 +30,8 @@ const HomePage = {
         <footer class="mt-3 py-3 bg-[#283054] text-white text-center">
           ${Footer.print()}
         </footer>
+        </div>
+
         `;
     },
 };
