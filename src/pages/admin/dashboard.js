@@ -1,13 +1,12 @@
-import HeaderAdmin from "../components/headerAdmin";
-import SidebarAdmin from "../components/sidebarAdmin";
-import cardStatisticAdmin from "../components/cardStatisticAdmin";
+import HeaderAdmin from "../../components/headerAdmin";
+import SidebarAdmin from "../../components/sidebarAdmin";
+import cardStatisticAdmin from "../../components/cardStatisticAdmin";
 
 const Dashboard = {
     print() {
         return /* html */` 
             <div class="flex h-screen bg-gray-50 dark:bg-gray-900" :class="{ 'overflow-hidden': isSideMenuOpen }">
                 ${SidebarAdmin.print()}
-
               <!--
                 <div x-show="isSideMenuOpen" x-transition:enter="transition ease-in-out duration-150"
                     x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100"

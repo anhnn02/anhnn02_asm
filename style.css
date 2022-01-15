@@ -20,7 +20,6 @@
     --new-item-color: rgba(34, 255, 0, 0.15);
     --star-color: #FFE600;
 }
-/* @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap'); */
 html{
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 15px;
@@ -45,13 +44,11 @@ img{
     @apply rounded-lg
 }
 .radius-secondary{
-    border-radius: 10px;
+    border-radius: 5px;
 }
 .trans-second{
     transition: 0.3s;
 }
-
-
 .form__item + .form__item {
     margin: 5px 0 0;
   }
@@ -77,3 +74,17 @@ img{
   .img-item-blog:hover .text-read{
     @apply opacity-100
   }
+
+.item-cmt + .item-cmt{
+   @apply mt-3
+}
+
+.ff-2{
+    font-family: 'Pacifico', sans-serif;
+   @apply text-xl
+}
+
+.category-link-active {
+   @apply bg-primary-15-color;
+   @apply text-primary-color
+}

@@ -1,6 +1,6 @@
-import posts from "../data";
-import HeaderAdmin from "../components/headerAdmin";
-import SidebarAdmin from "../components/sidebarAdmin";
+import posts from "../../../data";
+import HeaderAdmin from "../../../components/headerAdmin";
+import SidebarAdmin from "../../../components/sidebarAdmin";
 
 const NewsAdmin = {
     print() {
@@ -27,9 +27,10 @@ const NewsAdmin = {
                             </h2>
                             <div class="flex justify-between items-center">
                             <div class="mb-4 text-lg font-semibold text-gray-600 dark:text-gray-300">
-                              <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-3 rounded">
+                              <button class="bg-blue-500 hover:bg-blue-700 text-white py-1 px-3 rounded">
                               <a href="/admin/news/add">
-                              Add news
+                              <i class="bi bi-plus"></i>
+                                Add news
                               </a>
                               </button>
                             </div>
@@ -75,7 +76,7 @@ const NewsAdmin = {
                                 <tbody class="bg-white divide-y dark:divide-gray-700 dark:bg-gray-800">
                                 ${posts.map((post, index) => /* html */`
                                   <tr class="text-gray-700 dark:text-gray-400">
-                                    <td class="pl-4 py-3">${post.id}</td>
+                                    <td class="pl-4 py-3">${index + 1}</td>
                                     <td class="px-4 py-3">
                                       <div class="flex items-center text-sm">
                                         <!-- Avatar with inset shadow -->

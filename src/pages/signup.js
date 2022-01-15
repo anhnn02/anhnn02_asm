@@ -5,9 +5,9 @@ const Signup = {
         <div class="auth-container">
             <div class="m-auto px-24 max-w-full flex">
                 <div class="relative w-[43%] mr-12">
-                    <img src="https://scontent.fhph1-3.fna.fbcdn.net/v/t39.30808-6/271604171_467501544755885_2986972612133550980_n.jpg?_nc_cat=105&_nc_rgb565=1&ccb=1-5&_nc_sid=730e14&_nc_ohc=IkXP3QT3mpMAX8SrbWb&_nc_ht=scontent.fhph1-3.fna&oh=00_AT9XW7mTXcQymwqljnYxRMaPFu8SDVuecd2ImTPvgDkqZQ&oe=61E257D6" alt="" class="h-[500px] radius-secondary object-cover">
+                    <img src="https://cdn.dribbble.com/users/754899/screenshots/2985458/media/b8a16910e125ef377e7fb5941ef9082e.png?compress=1&resize=800x600&vertical=top" alt="" class="h-[500px] radius-secondary object-cover">
                     <a class="absolute top-3 left-3 bg-white radius-secondary opacity-50 px-2 py-3 trans-second hover:opacity-100 " href="/">
-                        <img src="https://scontent.fhph1-2.fna.fbcdn.net/v/t39.30808-6/271739645_467501604755879_961404341171791221_n.jpg?_nc_cat=101&_nc_rgb565=1&ccb=1-5&_nc_sid=730e14&_nc_ohc=z1dqOKu9y6wAX-vN9Tx&tn=r9baP1RTrmc8IQsa&_nc_ht=scontent.fhph1-2.fna&oh=00_AT_h2HuPz7fzuPBp0zAtqGg7uysFyezakOxYeT0Zsp4f8A&oe=61E25F76" alt=""
+                        <img src="https://i.imgur.com/YR2XB5I.png" alt=""
                             class="img-fluid w-28 object-cover">
                     </a>
                 </div>

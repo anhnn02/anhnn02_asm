@@ -6,12 +6,11 @@ import DetailNewPage from "./pages/detailNewPage";
 import PageNotFound from "./pages/pageNotFound";
 import Signup from "./pages/signup";
 import Signin from "./pages/signin";
-import Dashboard from "./pages/dashboard";
-import NewsAdmin from "./pages/newsAdmin";
-import AddNewsAdmin from "./pages/addNews";
-import EditNewsAdmin from "./pages/editNewsAdmin";
+import Dashboard from "./pages/admin/dashboard";
+import NewsAdmin from "./pages/admin/news/newsAdmin";
+import AddNewsAdmin from "./pages/admin/news/addNews";
+import EditNewsAdmin from "./pages/admin/news/editNewsAdmin";
 
-// để không bị load trang
 const router = new Navigo("/", { linksSelector: "a" });
 const render = (content) => {
     document.getElementById("app").innerHTML = content;
