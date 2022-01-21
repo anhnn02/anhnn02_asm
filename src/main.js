@@ -10,7 +10,7 @@ import Dashboard from "./pages/admin/dashboard";
 import NewsAdmin from "./pages/admin/news/newsAdmin";
 import AddNewsAdmin from "./pages/admin/news/addNews";
 import EditNewsAdmin from "./pages/admin/news/editNewsAdmin";
-
+// hello
 const router = new Navigo("/", { linksSelector: "a" });
 const render = (content) => {
     document.getElementById("app").innerHTML = content;
